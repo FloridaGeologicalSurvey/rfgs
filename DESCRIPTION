@@ -1,0 +1,14 @@
+Package: rfgs
+Title: Tools for interfacing with FGS Data Sources
+Version: 0.1
+Authors@R: "Seth Bassett <Seth.Bassett@dep.state.fl.us> [aut, cre]"
+Description: This package has been developed by the Florida Geological Survey
+    as a tool for streamlining access to the its various databases and data sources. 
+    A "fgsconnections.txt" file must be in the root C:\ of your local HDD in order
+    to utilize the database connections. See get_fgsconnecitons() documentation.
+Depends:
+    R (>= 3.1.0)
+Imports:
+    RPostgreSQL
+License: Public Domain
+LazyData: true
